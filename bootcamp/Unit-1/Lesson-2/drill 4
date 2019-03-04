@@ -1,0 +1,9 @@
+SELECT
+	zip,
+	maxtemperaturef,
+	date
+FROM
+	weather
+ORDER BY 
+	maxtemperaturef desc limit 5;
+

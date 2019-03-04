@@ -1,0 +1,9 @@
+SELECT
+	AVG (duration)
+FROM
+	trips
+
+
+
+
+

@@ -1,0 +1,10 @@
+SELECT
+	start_date,
+	start_station,
+	start_terminal
+FROM
+	trips
+ORDER BY
+	start_station
+
+
