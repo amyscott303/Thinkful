@@ -1,0 +1,11 @@
+SELECT
+	neighbourhood,
+	room_type,
+	price
+FROM
+	sfo_listings
+ORDER BY 
+	price desc
+LIMIT 3;
+--The most expensive listing is $10,000a night for an entire home in the Western Addition neighborhood which is
+--a full $1000 over the next listing. The most expensive for one room is $8,000 in Parkside neighborhood. 
